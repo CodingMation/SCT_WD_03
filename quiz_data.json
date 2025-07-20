@@ -1,0 +1,165 @@
+{
+    "HTML": [
+      {
+        "question": "What does HTML stand for?",
+        "options": ["Hyper Text Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language", "Hyperlinking Text Meta Language"],
+        "answer": 0
+      },
+      {
+        "question": "Which tag is used to insert a line break in HTML?",
+        "options": ["<break>", "<lb>", "<br>", "<line>"],
+        "answer": 2
+      },
+      {
+        "question": "Which HTML attribute is used to define inline styles?",
+        "options": ["font", "style", "class", "styles"],
+        "answer": 1
+      },
+      {
+        "question": "How can you open a link in a new tab?",
+        "options": ["target='_self'", "href='newtab'", "target='_blank'", "link='_blank'"],
+        "answer": 2
+      },
+      {
+        "question": "What is the correct HTML for adding a background color?",
+        "options": ["<body style='background-color:yellow;'>", "<body bg='yellow'>", "<background>yellow</background>", "<body color='yellow'>"],
+        "answer": 0
+      }
+    ],
+    "CSS": [
+      {
+        "question": "What does CSS stand for?",
+        "options": ["Creative Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
+        "answer": 1
+      },
+      {
+        "question": "Which property is used to change the text color?",
+        "options": ["font-color", "color", "text-color", "font"],
+        "answer": 1
+      },
+      {
+        "question": "Which CSS property controls the text size?",
+        "options": ["text-style", "font-style", "text-size", "font-size"],
+        "answer": 3
+      },
+      {
+        "question": "How do you make a list not display bullet points?",
+        "options": ["list-type: none;", "bullet: none;", "list-style-type: none;", "list-style: remove;"],
+        "answer": 2
+      },
+      {
+        "question": "Which CSS property is used to change the background color?",
+        "options": ["color", "background", "bgcolor", "background-color"],
+        "answer": 3
+      }
+    ],
+    "JavaScript": [
+      {
+        "question": "Inside which HTML element do we put JavaScript?",
+        "options": ["<js>", "<scripting>", "<javascript>", "<script>"],
+        "answer": 3
+      },
+      {
+        "question": "How do you write 'Hello World' in an alert box?",
+        "options": ["msg('Hello World');", "alertBox('Hello World');", "alert('Hello World');", "msgBox('Hello World');"],
+        "answer": 2
+      },
+      {
+        "question": "How to create a function in JavaScript?",
+        "options": ["function:myFunction()", "function = myFunction()", "function myFunction()", "create myFunction()"],
+        "answer": 2
+      },
+      {
+        "question": "How do you call a function named 'myFunction'?",
+        "options": ["call myFunction()", "myFunction()", "call function myFunction()", "Run.myFunction()"],
+        "answer": 1
+      },
+      {
+        "question": "Which event occurs when the user clicks on an HTML element?",
+        "options": ["onmouseclick", "onchange", "onmouseover", "onclick"],
+        "answer": 3
+      }
+    ],
+    "GK": [
+      {
+        "question": "Which is the largest continent in the world?",
+        "options": ["Africa", "Europe", "Asia", "Antarctica"],
+        "answer": 2
+      },
+      {
+        "question": "Who is the Father of the Nation in India?",
+        "options": ["Jawaharlal Nehru", "Mahatma Gandhi", "B. R. Ambedkar", "Sardar Patel"],
+        "answer": 1
+      },
+      {
+        "question": "Which planet is known as the 'Blue Planet'?",
+        "options": ["Venus", "Mars", "Earth", "Neptune"],
+        "answer": 2
+      },
+      {
+        "question": "How many players are there in a cricket team?",
+        "options": ["10", "11", "12", "9"],
+        "answer": 1
+      },
+      {
+        "question": "What is the national bird of India?",
+        "options": ["Peacock", "Sparrow", "Crow", "Pigeon"],
+        "answer": 0
+      }
+    ],
+    "Science": [
+      {
+        "question": "What gas do plants absorb from the atmosphere?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "answer": 1
+      },
+      {
+        "question": "How many bones are in the adult human body?",
+        "options": ["206", "210", "205", "208"],
+        "answer": 0
+      },
+      {
+        "question": "Which part of the plant conducts photosynthesis?",
+        "options": ["Roots", "Stem", "Leaves", "Flowers"],
+        "answer": 2
+      },
+      {
+        "question": "What is the boiling point of water?",
+        "options": ["90°C", "100°C", "120°C", "80°C"],
+        "answer": 1
+      },
+      {
+        "question": "Which vitamin is produced by sunlight?",
+        "options": ["Vitamin A", "Vitamin B", "Vitamin D", "Vitamin C"],
+        "answer": 2
+      }
+    ],
+    "English": [
+      {
+        "question": "What is the opposite of 'ancient'?",
+        "options": ["Old", "Modern", "Antique", "Classic"],
+        "answer": 1
+      },
+      {
+        "question": "Choose the correctly spelled word.",
+        "options": ["Acommodate", "Accommodate", "Acomodate", "Accomadate"],
+        "answer": 1
+      },
+      {
+        "question": "Identify the noun in this sentence: 'The dog barked loudly.'",
+        "options": ["barked", "loudly", "dog", "The"],
+        "answer": 2
+      },
+      {
+        "question": "Which word is a verb?",
+        "options": ["Quick", "Run", "Beautiful", "Tall"],
+        "answer": 1
+      },
+      {
+        "question": "What is the plural of 'child'?",
+        "options": ["Childs", "Childes", "Children", "Childrens"],
+        "answer": 2
+      }
+    ]
+  }
+  

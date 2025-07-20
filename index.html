@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>qQuiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[blueviolet] flex items-center justify-center min-h-screen">
+    <div
+      id="app"
+      class="w-full max-w-xl p-4 bg-gradient-to-br from-purple-500 to-indigo-600 shadow-lg rounded-lg text-center"
+    >
+      <!-- Start Screen -->
+      <div id="startScreen" class="flex flex-col items-center justify-center text-white space-y-6">
+        <h1 class="text-4xl font-bold">🎉 Welcome to the Quiz!</h1>
+        <button onclick="showCategorySelection()" class="bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-purple-100 transition">
+          Start Quiz
+        </button>
+      </div>
+      
+
+      <!-- Category Selection -->
+      <div id="categoryScreen" class="hidden">
+        <h2 class="text-xl font-semibold mb-4">Choose a Category</h2>
+        <div id="categories" class="grid grid-cols-2 gap-4 mb-4"></div>
+        <button onclick="goBack()" class="text-white">← Back</button>
+      </div>
+
+      <!-- Quiz Area -->
+      <div id="quizScreen" class="hidden text-left">
+        <div class="mb-2 text-sm text-gray-100">
+          Question <span id="currentQ">1</span> of <span id="totalQ">5</span>
+        </div>
+        <h3 id="questionText" class="text-lg font-bold mb-4">
+          Question will be here
+        </h3>
+        <div id="options" class="grid gap-2"></div>
+        <div class="flex justify-between mt-4">
+          <button
+            onclick="prevQuestion()"
+            id="prevBtn"
+            class="bg-gray-400 text-white px-4 py-2 rounded hover:bg-gray-500"
+          >
+            Previous
+          </button>
+          <button
+            onclick="nextQuestion()"
+            id="nextBtn"
+            class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+          >
+            Next
+          </button>
+          <button
+            onclick="submitQuiz()"
+            id="submitBtn"
+            class="hidden bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+
+      <!-- Score Screen -->
+      <div id="scoreScreen" class="hidden">
+        <h2 class="text-2xl font-bold mb-4">Quiz Completed!</h2>
+        <p class="text-white">
+          Your Score: <span id="scoreDisplay"></span> /
+          <span id="totalDisplay"></span>
+        </p>
+        <button
+          onclick="restartQuiz()"
+          class="mt-4 bg-blue-500 text-white px-4 py-2 rounded"
+        >
+          Restart
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
