@@ -1,4 +1,4 @@
-# 🎯 Quiz App
+# 🎯 Quiz App | [LINK](https://codingmation.github.io/SCT_WD_03/)
 
 Welcome to the **Quiz App** – a sleek, responsive, and interactive web-based quiz dashboard built with **HTML**, **Tailwind CSS**, and **JavaScript**.
 
